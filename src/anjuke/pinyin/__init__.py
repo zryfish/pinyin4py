@@ -4,8 +4,8 @@ import os
 import re
 
 _punctuation_mapper = dict(zip(
-    u'？！。，、：《》“”‘’　',
-    u'?!.,,:<>""\'\' '))
+    u'·？！。，、：《》“”‘’　',
+    u'‧?!.,,:<>""\'\' '))
 
 def _load_character_mapper():
     mapper = dict()

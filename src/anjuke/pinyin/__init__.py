@@ -50,7 +50,8 @@ class Tokenizer:
 
         while True:
             i += 1
-            if i >= self._length or self._char_type(self._text[i]) != type:
+            if i >= self._length or self._char_type(self._text[i]) != type\
+                or (self._char_type(self._text[i]) == type and type == 3):
                 break
 
         try:
